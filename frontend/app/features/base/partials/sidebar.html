@@ -1,0 +1,33 @@
+﻿<!-- Page Sidebar Header-->
+<!--div class="sidebar-header-wrapper">
+    <input type="text" class="searchinput" />
+    <i class="searchicon fa fa-search"></i>
+    <div class="searchhelper">Search Reports, Charts, Emails or Notifications</div>
+</div-->
+<!-- /Page Sidebar Header -->
+<!-- Sidebar Menu -->
+<ul class="nav sidebar-menu" ng-controller="MenuController as ctrl" >
+    <!-- 基础数据 -->
+    <li >
+        <a href="#" class="menu-dropdown">
+            <i class="menu-icon fa fa-database"></i>
+            <span class="menu-text"> 基础数据 </span>
+
+            <i class="menu-expand"></i>
+        </a>
+
+        <ul class="submenu">
+            <li ui-sref-active="active">
+                <a ui-sref="share.region">
+                    <span class="menu-text">地区</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="share.user">
+                    <span class="menu-text">用户</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<!-- /Sidebar Menu -->

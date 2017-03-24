@@ -1,0 +1,10 @@
+dependencies {
+	compile 'commons-pool:commons-pool:1.5.4'
+	compile 'commons-dbcp:commons-dbcp:1.3'
+	compile "org.springframework:spring-orm:${spring_version}"
+	compile "org.springframework.data:spring-data-jpa:1.9.4.RELEASE"
+	compile "org.hibernate:hibernate-core:${hibernate_version}"
+	compile "org.hibernate:hibernate-entitymanager:${hibernate_version}"
+	compile 'com.github.darrachequesne:spring-data-jpa-datatables:1.5'
+}
+

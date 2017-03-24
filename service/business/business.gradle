@@ -1,0 +1,6 @@
+dependencies {
+	compile project(':model')
+	compile 'javax.transaction:jta:1.1'
+	compile "org.springframework:spring-tx:${spring_version}"
+}
+

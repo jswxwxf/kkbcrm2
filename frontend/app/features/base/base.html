@@ -1,0 +1,41 @@
+<!-- Loading Container -->
+<div class="loading-container" ng-include=" 'features/base/partials/loading.html' "></div>
+<!--  /Loading Container -->
+
+<!-- Navbar -->
+<div class="navbar navbar-fixed-top" ng-include=" 'features/base/partials/navbar.html' "></div>
+<!-- /Navbar -->
+
+<div class="main-container container-fluid">
+  <!-- Page Container -->
+  <div class="page-container">
+    <!-- Page Sidebar -->
+    <div class="page-sidebar sidebar-fixed" id="sidebar" ng-include=" 'features/base/partials/sidebar.html' ">
+    </div>
+    <!-- /Page Sidebar -->
+    <!-- Chat Bar -->
+    <!--div id="chatbar" class="page-chatbar" ng-include=" 'views/partials/chatbar.html' ">
+    </div-->
+    <!-- /Chat Bar -->
+    <!-- Page Content -->
+    <div class="page-content">
+      <!-- Page Breadcrumb -->
+      <div class="page-breadcrumbs breadcrumbs-fixed" ng-include=" 'features/base/partials/breadcrumbs.html' ">
+      </div>
+      <!-- /Page Breadcrumb -->
+      <!-- Page Header -->
+      <div class="page-header position-relative page-header-fixed" ng-include=" 'features/base/partials/header.html' ">
+      </div>
+      <!-- /Page Header -->
+      <!-- Page Body -->
+      <div class="page-body" ui-view>
+        <!-- Your Content Goes Here -->
+      </div>
+      <!-- /Page Body -->
+    </div>
+    <!-- /Page Content -->
+  </div>
+  <!-- /Page Container -->
+  <!-- Main Container -->
+
+</div>

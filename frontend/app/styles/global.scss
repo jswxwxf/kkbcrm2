@@ -1,0 +1,19 @@
+@import "styles/variables";
+@import "styles/mixins";
+@import "styles/media";
+@import "styles/icons";
+
+//@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300");
+
+body {
+  font-family: "Open Sans", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.btn {
+  line-height: 20px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
